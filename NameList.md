@@ -66,4 +66,4 @@
 | Spada Belforma | スパーダ・ベルフォーマ | O |
 | `Tales of Vesperia`|||
 | Yuri Lowell | ユーリ・ローウェル | O |
-| Estellise Sidos Heurassein | エステル・シドス・ヒュラッセイン | X |
+| Estellise Sidos Heurassein | エステル・シドス・ヒュラッセイン | O |
