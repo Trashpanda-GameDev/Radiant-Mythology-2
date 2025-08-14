@@ -52,7 +52,7 @@
 | Chloe Valens | クロエ・ヴァレンス | O |
 | `Tales of the Abyss`|||
 | Luke fon Fabre | ルーク・フォン・ファブレ | O |
-| Tear Grants | ティア・グランツ | X |
+| Tear Grants | ティア・グランツ | O |
 | Guy Cecil | ガイ・セシル | X |
 | Jade Curtiss | ジェイド・カーティス | X |
 | Anise Tatlin | アニス・タトリン | X |
