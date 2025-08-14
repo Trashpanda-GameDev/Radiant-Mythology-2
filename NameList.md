@@ -37,7 +37,7 @@
 | `Tales of Symphonia`|||
 | Lloyd Irving | ロイド・アーヴィング | O |
 | Colette Brunel | コレット・ブルネル | O |
-| Kratos Aurion | クラトス・アウリオン | X |
+| Kratos Aurion | クラトス・アウリオン | O |
 | Genis Sage | ジーニアス・セイジ | X |
 | Raine Sage | リフィル・セイジ | X |
 | Presea Combatir | プレセア・コンバティア | X |
