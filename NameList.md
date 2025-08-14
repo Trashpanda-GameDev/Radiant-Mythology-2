@@ -35,7 +35,7 @@
 | Nanaly Fletch | ナナリー・フレッチ | O |
 | Harold Berselius | ハロルド・ベルセリウス | O |
 | `Tales of Symphonia`|||
-| Lloyd Irving | ロイド・アーヴィング | X |
+| Lloyd Irving | ロイド・アーヴィング | O |
 | Colette Brunel | コレット・ブルネル | X |
 | Kratos Aurion | クラトス・アウリオン | X |
 | Genis Sage | ジーニアス・セイジ | X |
