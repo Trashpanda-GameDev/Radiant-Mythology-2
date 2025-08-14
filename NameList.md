@@ -56,7 +56,7 @@
 | Guy Cecil | ガイ・セシル | O |
 | Jade Curtiss | ジェイド・カーティス | O |
 | Anise Tatlin | アニス・タトリン | O |
-| Asch | アッシュ | X |
+| Asch | アッシュ | O |
 | `Tales of the Tempest`|||
 | Caius Qualls | カイウス・クォールズ | X |
 | Rubia Natwick | ルビア・ナトウィック | X |
