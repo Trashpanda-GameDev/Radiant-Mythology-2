@@ -61,7 +61,7 @@
 | Caius Qualls | カイウス・クォールズ | O |
 | Rubia Natwick | ルビア・ナトウィック | O |
 | `Tales of Innocence`|||
-| Ruca Milda | ルカ・ミルダ | X |
+| Ruca Milda | ルカ・ミルダ | O |
 | Illia Animi | イリア・アニミ | X |
 | Spada Belforma | スパーダ・ベルフォーマ | X |
 | `Tales of Vesperia`|||
