@@ -39,7 +39,7 @@
 | Colette Brunel | コレット・ブルネル | O |
 | Kratos Aurion | クラトス・アウリオン | O |
 | Genis Sage | ジーニアス・セイジ | O |
-| Raine Sage | リフィル・セイジ | X |
+| Raine Sage | リフィル・セイジ | O |
 | Presea Combatir | プレセア・コンバティア | X |
 | Zelos Wilder | ゼロス・ワイルダー | O |
 | `Tales of Rebirth`|||
