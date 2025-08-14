@@ -62,7 +62,7 @@
 | Rubia Natwick | ルビア・ナトウィック | O |
 | `Tales of Innocence`|||
 | Ruca Milda | ルカ・ミルダ | O |
-| Illia Animi | イリア・アニミ | X |
+| Illia Animi | イリア・アニミ | O |
 | Spada Belforma | スパーダ・ベルフォーマ | X |
 | `Tales of Vesperia`|||
 | Yuri Lowell | ユーリ・ローウェル | X |
