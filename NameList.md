@@ -46,7 +46,7 @@
 | Veigue Lungberg | ヴェイグ・ラングバーグ | O |
 | Mao Orselg | マオ・オルセルグ | O |
 | Eugene Gallardo | ユージーン・ガラルド | O |
-| Annie Barrs | アニー・バーズ | X |
+| Annie Barrs | アニー・バーズ | O |
 | `Tales of Legendia`|||
 | Senel Coolidge | セネル・クーリッジ | X |
 | Chloe Valens | クロエ・ヴァレンス | X |
