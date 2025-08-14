@@ -59,7 +59,7 @@
 | Asch | アッシュ | O |
 | `Tales of the Tempest`|||
 | Caius Qualls | カイウス・クォールズ | O |
-| Rubia Natwick | ルビア・ナトウィック | X |
+| Rubia Natwick | ルビア・ナトウィック | O |
 | `Tales of Innocence`|||
 | Ruca Milda | ルカ・ミルダ | X |
 | Illia Animi | イリア・アニミ | X |
