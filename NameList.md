@@ -28,7 +28,7 @@
 | Farah Oersted | ファラ・オーステッド | O |
 | Keele Zeibel | キール・ツァイベル | O |
 | Chat | チャット | O |
-| Celsius | セルシウス | X |
+| Celsius | セルシウス | O |
 | `Tales of Destiny 2`|||
 | Kyle Dunamis | カイル・デュナミス | X |
 | Reala | リアラ | X |

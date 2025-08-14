@@ -1140,7 +1140,7 @@
     <Entry>
       <PointerOffset/>
       <JapaneseText>セルシウス</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Celsius</EnglishText>
       <Notes/>
       <Id>130</Id>
       <Status>To Do</Status>
@@ -1644,7 +1644,7 @@
     <Entry>
       <PointerOffset/>
       <JapaneseText>セルシウス</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Celsius</EnglishText>
       <Notes/>
       <Id>196</Id>
       <Status>To Do</Status>
