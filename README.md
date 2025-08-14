@@ -18,6 +18,27 @@ Attempt to complete English patch for Tales of the World: Radiant Mythology 2
 1. `PSP_GAME\USRDIR\quest\qdata.bin` was also translated
 1. The `SCR` files are proabaly story/skit text
 
+# Skit files
+The `PSP_GAME\USRDIR\facechat\*.arc` contain the story/skit files
+1. The `SCR` files contain the story/skit text
+    1. The `SCR` files are compressed
+    1. After decompression the `SCR` files are `EUC-JP` encoded
+1. `PMF` files are video files
+1. `AT3` files are audio files
+
+Currently unknown file extensions
+- `.PPT` unknown, probably the main talking head animation file
+
+## Filenames in the facechat folder
+- `ev####`/`ev####_#` are the main story dialogue files 
+
+Currently unknown are filenames with the patterns: 
+- `gv####` - 
+- `sq###_##_###` - 
+- `cv##_##` - 
+- `facetest_#` - probably for debugging?
+- `mapNAME_#` - probably names for map locations
+- 
 
 # Resources
 [QuickBMS script to unpack ARC files (PSP)](https://m.blog.naver.com/physics1114/220350378050)
