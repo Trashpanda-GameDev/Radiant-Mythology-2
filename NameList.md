@@ -24,8 +24,8 @@
 | Mighty Kongman | マイティ・コングマン | O |
 | Lilith Aileron | リリス・エイラーン | O |
 | `Tales of Eternia`|||
-| Reid Hershel | リッド・ハーシェル | X |
-| Farah Oersted | ファラ・オーステッド | X |
+| Reid Hershel | リッド・ハーシェル | O |
+| Farah Oersted | ファラ・オーステッド | O |
 | Keele Zeibel | キール・ツァイベル | X |
 | Chat | チャット | X |
 | Celsius | セルシウス | X |
