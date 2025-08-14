@@ -44,7 +44,7 @@
 | Zelos Wilder | ゼロス・ワイルダー | O |
 | `Tales of Rebirth`|||
 | Veigue Lungberg | ヴェイグ・ラングバーグ | O |
-| Mao Orselg | マオ・オルセルグ | X |
+| Mao Orselg | マオ・オルセルグ | O |
 | Eugene Gallardo | ユージーン・ガラルド | X |
 | Annie Barrs | アニー・バーズ | X |
 | `Tales of Legendia`|||
