@@ -45,7 +45,7 @@
 | `Tales of Rebirth`|||
 | Veigue Lungberg | ヴェイグ・ラングバーグ | O |
 | Mao Orselg | マオ・オルセルグ | O |
-| Eugene Gallardo | ユージーン・ガラルド | X |
+| Eugene Gallardo | ユージーン・ガラルド | O |
 | Annie Barrs | アニー・バーズ | X |
 | `Tales of Legendia`|||
 | Senel Coolidge | セネル・クーリッジ | X |
