@@ -53,9 +53,9 @@
 | `Tales of the Abyss`|||
 | Luke fon Fabre | ルーク・フォン・ファブレ | O |
 | Tear Grants | ティア・グランツ | O |
-| Guy Cecil | ガイ・セシル | X |
+| Guy Cecil | ガイ・セシル | O |
 | Jade Curtiss | ジェイド・カーティス | O |
-| Anise Tatlin | アニス・タトリン | X |
+| Anise Tatlin | アニス・タトリン | O |
 | Asch | アッシュ | X |
 | `Tales of the Tempest`|||
 | Caius Qualls | カイウス・クォールズ | X |
