@@ -32,7 +32,7 @@
 | `Tales of Destiny 2`|||
 | Kyle Dunamis | カイル・デュナミス | O |
 | Reala | リアラ | O |
-| Nanaly Fletch | ナナリー・フレッチ | X |
+| Nanaly Fletch | ナナリー・フレッチ | O |
 | Harold Berselius | ハロルド・ベルセリウス | X |
 | `Tales of Symphonia`|||
 | Lloyd Irving | ロイド・アーヴィング | X |
