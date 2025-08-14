@@ -51,7 +51,7 @@
 | Senel Coolidge | セネル・クーリッジ | O |
 | Chloe Valens | クロエ・ヴァレンス | O |
 | `Tales of the Abyss`|||
-| Luke fon Fabre | ルーク・フォン・ファブレ | X |
+| Luke fon Fabre | ルーク・フォン・ファブレ | O |
 | Tear Grants | ティア・グランツ | X |
 | Guy Cecil | ガイ・セシル | X |
 | Jade Curtiss | ジェイド・カーティス | X |
