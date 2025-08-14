@@ -3,7 +3,7 @@
 | `Original Characters`||
 | Kanonno | カノンノ |
 | Panille | パニール |
-| Shoh Corron | ショウ・コロン |
+| Shoh Corron | ショー・コーロン |
 | Niata | ニアタ |
 | Janis | ジャニス |
 | Goede | グーデ |
