@@ -63,7 +63,7 @@
 | `Tales of Innocence`|||
 | Ruca Milda | ルカ・ミルダ | O |
 | Illia Animi | イリア・アニミ | O |
-| Spada Belforma | スパーダ・ベルフォーマ | X |
+| Spada Belforma | スパーダ・ベルフォーマ | O |
 | `Tales of Vesperia`|||
 | Yuri Lowell | ユーリ・ローウェル | X |
 | Estellise Sidos Heurassein | エステル・シドス・ヒュラッセイン | X |
