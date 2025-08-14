@@ -49,7 +49,7 @@
 | Annie Barrs | アニー・バーズ | O |
 | `Tales of Legendia`|||
 | Senel Coolidge | セネル・クーリッジ | O |
-| Chloe Valens | クロエ・ヴァレンス | X |
+| Chloe Valens | クロエ・ヴァレンス | O |
 | `Tales of the Abyss`|||
 | Luke fon Fabre | ルーク・フォン・ファブレ | X |
 | Tear Grants | ティア・グランツ | X |
