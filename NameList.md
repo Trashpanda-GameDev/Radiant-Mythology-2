@@ -43,7 +43,7 @@
 | Presea Combatir | プレセア・コンバティア | O |
 | Zelos Wilder | ゼロス・ワイルダー | O |
 | `Tales of Rebirth`|||
-| Veigue Lungberg | ヴェイグ・ラングバーグ | X |
+| Veigue Lungberg | ヴェイグ・ラングバーグ | O |
 | Mao Orselg | マオ・オルセルグ | X |
 | Eugene Gallardo | ユージーン・ガラルド | X |
 | Annie Barrs | アニー・バーズ | X |
