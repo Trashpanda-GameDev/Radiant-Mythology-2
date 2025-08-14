@@ -65,5 +65,5 @@
 | Illia Animi | イリア・アニミ | O |
 | Spada Belforma | スパーダ・ベルフォーマ | O |
 | `Tales of Vesperia`|||
-| Yuri Lowell | ユーリ・ローウェル | X |
+| Yuri Lowell | ユーリ・ローウェル | O |
 | Estellise Sidos Heurassein | エステル・シドス・ヒュラッセイン | X |
