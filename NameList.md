@@ -38,7 +38,7 @@
 | Lloyd Irving | ロイド・アーヴィング | O |
 | Colette Brunel | コレット・ブルネル | O |
 | Kratos Aurion | クラトス・アウリオン | O |
-| Genis Sage | ジーニアス・セイジ | X |
+| Genis Sage | ジーニアス・セイジ | O |
 | Raine Sage | リフィル・セイジ | X |
 | Presea Combatir | プレセア・コンバティア | X |
 | Zelos Wilder | ゼロス・ワイルダー | X |
