@@ -36,7 +36,7 @@
 | Harold Berselius | ハロルド・ベルセリウス | O |
 | `Tales of Symphonia`|||
 | Lloyd Irving | ロイド・アーヴィング | O |
-| Colette Brunel | コレット・ブルネル | X |
+| Colette Brunel | コレット・ブルネル | O |
 | Kratos Aurion | クラトス・アウリオン | X |
 | Genis Sage | ジーニアス・セイジ | X |
 | Raine Sage | リフィル・セイジ | X |
