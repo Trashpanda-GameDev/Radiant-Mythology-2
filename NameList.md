@@ -40,7 +40,7 @@
 | Kratos Aurion | クラトス・アウリオン | O |
 | Genis Sage | ジーニアス・セイジ | O |
 | Raine Sage | リフィル・セイジ | O |
-| Presea Combatir | プレセア・コンバティア | X |
+| Presea Combatir | プレセア・コンバティア | O |
 | Zelos Wilder | ゼロス・ワイルダー | O |
 | `Tales of Rebirth`|||
 | Veigue Lungberg | ヴェイグ・ラングバーグ | X |
