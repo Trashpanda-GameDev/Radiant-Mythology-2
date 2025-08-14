@@ -48,7 +48,7 @@
 | Eugene Gallardo | ユージーン・ガラルド | O |
 | Annie Barrs | アニー・バーズ | O |
 | `Tales of Legendia`|||
-| Senel Coolidge | セネル・クーリッジ | X |
+| Senel Coolidge | セネル・クーリッジ | O |
 | Chloe Valens | クロエ・ヴァレンス | X |
 | `Tales of the Abyss`|||
 | Luke fon Fabre | ルーク・フォン・ファブレ | X |
