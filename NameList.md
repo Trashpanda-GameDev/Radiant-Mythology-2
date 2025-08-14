@@ -41,7 +41,7 @@
 | Genis Sage | ジーニアス・セイジ | O |
 | Raine Sage | リフィル・セイジ | X |
 | Presea Combatir | プレセア・コンバティア | X |
-| Zelos Wilder | ゼロス・ワイルダー | X |
+| Zelos Wilder | ゼロス・ワイルダー | O |
 | `Tales of Rebirth`|||
 | Veigue Lungberg | ヴェイグ・ラングバーグ | X |
 | Mao Orselg | マオ・オルセルグ | X |
