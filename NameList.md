@@ -27,7 +27,7 @@
 | Reid Hershel | リッド・ハーシェル | O |
 | Farah Oersted | ファラ・オーステッド | O |
 | Keele Zeibel | キール・ツァイベル | O |
-| Chat | チャット | X |
+| Chat | チャット | O |
 | Celsius | セルシウス | X |
 | `Tales of Destiny 2`|||
 | Kyle Dunamis | カイル・デュナミス | X |
