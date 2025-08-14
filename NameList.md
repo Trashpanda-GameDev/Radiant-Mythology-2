@@ -30,7 +30,7 @@
 | Chat | チャット | O |
 | Celsius | セルシウス | O |
 | `Tales of Destiny 2`|||
-| Kyle Dunamis | カイル・デュナミス | X |
+| Kyle Dunamis | カイル・デュナミス | O |
 | Reala | リアラ | X |
 | Nanaly Fletch | ナナリー・フレッチ | X |
 | Harold Berselius | ハロルド・ベルセリウス | X |
