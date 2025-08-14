@@ -1,3 +1,5 @@
+> characters extracted from: [Tales of the World: Radiant Mythology 2 Wiki page](https://en.wikipedia.org/wiki/Tales_of_the_World:_Radiant_Mythology_2)
+
 | English | Japanese |
 | - | - |
 | `Original Characters`||
@@ -7,7 +9,6 @@
 | Niata | ニアタ |
 | Janis | ジャニス |
 | Goede | ゲーデ |
-| Genesis Llobrera | ジェネシス・リョブレラ |
 | `Tales of Phantasia`||
 | Cress Albane | クレス・アルベイン |
 | Mint Adenade | ミント・アデナード |
