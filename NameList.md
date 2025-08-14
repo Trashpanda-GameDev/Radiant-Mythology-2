@@ -6,7 +6,7 @@
 | Shoh Corron | ショー・コーロン |
 | Niata | ニアタ |
 | Janis | ジャニス |
-| Goede | グーデ |
+| Goede | ゲーデ |
 | Genesis Llobrera | ジェネシス・リョブレラ |
 | `Tales of Phantasia`||
 | Cress Albane | クレス・アルベイン |
