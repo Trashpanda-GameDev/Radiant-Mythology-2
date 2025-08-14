@@ -26,7 +26,7 @@
 | `Tales of Eternia`|||
 | Reid Hershel | リッド・ハーシェル | O |
 | Farah Oersted | ファラ・オーステッド | O |
-| Keele Zeibel | キール・ツァイベル | X |
+| Keele Zeibel | キール・ツァイベル | O |
 | Chat | チャット | X |
 | Celsius | セルシウス | X |
 | `Tales of Destiny 2`|||
