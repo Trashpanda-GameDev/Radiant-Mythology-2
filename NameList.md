@@ -58,7 +58,7 @@
 | Anise Tatlin | アニス・タトリン | O |
 | Asch | アッシュ | O |
 | `Tales of the Tempest`|||
-| Caius Qualls | カイウス・クォールズ | X |
+| Caius Qualls | カイウス・クォールズ | O |
 | Rubia Natwick | ルビア・ナトウィック | X |
 | `Tales of Innocence`|||
 | Ruca Milda | ルカ・ミルダ | X |
