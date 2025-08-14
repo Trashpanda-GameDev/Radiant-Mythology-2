@@ -54,7 +54,7 @@
 | Luke fon Fabre | ルーク・フォン・ファブレ | O |
 | Tear Grants | ティア・グランツ | O |
 | Guy Cecil | ガイ・セシル | X |
-| Jade Curtiss | ジェイド・カーティス | X |
+| Jade Curtiss | ジェイド・カーティス | O |
 | Anise Tatlin | アニス・タトリン | X |
 | Asch | アッシュ | X |
 | `Tales of the Tempest`|||
