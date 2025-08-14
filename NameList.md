@@ -31,7 +31,7 @@
 | Celsius | セルシウス | O |
 | `Tales of Destiny 2`|||
 | Kyle Dunamis | カイル・デュナミス | O |
-| Reala | リアラ | X |
+| Reala | リアラ | O |
 | Nanaly Fletch | ナナリー・フレッチ | X |
 | Harold Berselius | ハロルド・ベルセリウス | X |
 | `Tales of Symphonia`|||
