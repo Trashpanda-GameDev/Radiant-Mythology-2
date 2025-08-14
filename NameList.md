@@ -33,7 +33,7 @@
 | Kyle Dunamis | カイル・デュナミス | O |
 | Reala | リアラ | O |
 | Nanaly Fletch | ナナリー・フレッチ | O |
-| Harold Berselius | ハロルド・ベルセリウス | X |
+| Harold Berselius | ハロルド・ベルセリウス | O |
 | `Tales of Symphonia`|||
 | Lloyd Irving | ロイド・アーヴィング | X |
 | Colette Brunel | コレット・ブルネル | X |
