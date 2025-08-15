@@ -17,6 +17,8 @@ Attempt to complete English patch for Tales of the World: Radiant Mythology 2
 1. From the existing patch, it looks like the `PSPGAME\SYSDIR\EBOOT.BIN` is where most of the menu text is.
 1. `PSP_GAME\USRDIR\quest\qdata.bin` was also translated
 1. The `SCR` files are proabaly story/skit text
+1. `○○` can be used in the english translation to input the player name
+1. A line is approximately this big before it goes to a new line: `xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`
 
 # Skit files
 The `PSP_GAME\USRDIR\facechat\*.arc` contain the story/skit files
@@ -86,7 +88,7 @@ Currently unknown are filenames with the patterns:
     
     > UMD-replace example command:
     > ``` 
-    > "UMD-replace.exe" "path_to\RM2_replaced.iso""PSP_GAME\USRDIR\facechat\ev0000.arc" "PATH_TO_REPO\3_patched\USRDIR\facechat\ev0000.arc"
+    > "UMD-replace.exe" "path_to\RM2_replaced.iso" "PSP_GAME\USRDIR\facechat\ev0000.arc" "PATH_TO_REPO\3_patched\USRDIR\facechat\ev0000.arc"
     
     > replace-all.bat:
     > ```
