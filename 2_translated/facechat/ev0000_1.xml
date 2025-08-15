@@ -23,8 +23,8 @@
     <Entry>
       <PointerOffset/>
       <JapaneseText>…！！</JapaneseText>
-      <EnglishText/>
-      <Notes>Can just default to JapaneseText</Notes>
+      <EnglishText>...!!</EnglishText>
+      <Notes/>
       <SpeakerId>50</SpeakerId>
       <Id>0</Id>
       <Status>Editing</Status>
@@ -52,7 +52,8 @@
       <PointerOffset/>
       <JapaneseText>見失っちゃった。
 何だったんだろう…</JapaneseText>
-      <EnglishText>I don't see it anymore. What could it have been...?</EnglishText>
+      <EnglishText>I don't see it anymore.
+What could it have been...?</EnglishText>
       <Notes/>
       <SpeakerId>50</SpeakerId>
       <Id>3</Id>
@@ -63,7 +64,7 @@
       <JapaneseText>ひ、人がッ！？
 はわわわわわわわ…</JapaneseText>
       <EnglishText>A p-person?!
-Waaaahhhh!!!</EnglishText>
+Waaaaaaahhhhh!!!</EnglishText>
       <Notes/>
       <SpeakerId>53</SpeakerId>
       <Id>5</Id>
