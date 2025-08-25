@@ -96,6 +96,34 @@ def write_arc(path: Path, alignment: int, entries: List[ArcEntry]) -> None:
         f.write(out.getvalue())
 
 
+def has_english_text(xml_path: Path) -> bool:
+    """Check if an XML file contains English text that needs translation"""
+    try:
+        xml_tree = ET.parse(str(xml_path))
+        
+        # Look for English text in dialogue strings, excluding speaker entries
+        for entry in xml_tree.findall(".//Entry"):
+            # Check if this entry is inside a <Speakers> section
+            parent = entry.getparent()
+            while parent is not None:
+                if parent.tag == "Speakers":
+                    # This entry is a speaker, skip it
+                    break
+                parent = parent.getparent()
+            else:
+                # This entry is NOT inside <Speakers>, check for English text
+                en_text = entry.findtext("EnglishText")
+                if en_text is not None and en_text.strip() != "":
+                    # Check if the text contains English characters (basic check)
+                    text = en_text.strip()
+                    if any(ord(char) < 128 for char in text):  # ASCII characters
+                        return True
+        
+        return False
+    except Exception:
+        # If we can't parse the XML, assume it needs processing
+        return True
+
 def apply_translations_to_scr(scr_gz: bytes, xml_path: Path) -> bytes:
     raw = gzip.decompress(scr_gz)
     scr = BytesIO(raw)
@@ -150,9 +178,9 @@ def apply_translations_to_scr(scr_gz: bytes, xml_path: Path) -> bytes:
     return gzip.compress(out.getvalue())
 
 
-def apply_folder(subdir: str, disc_root: Path, xml_root: Path, out_root: Path, only_arcs: list[str] | None = None, pad_to_original_size: bool = False) -> None:
-    in_dir = disc_root / "USRDIR" / subdir
-    out_dir = out_root / "USRDIR" / subdir
+def apply_folder(subdir: str, disc_root: Path, xml_root: Path, out_root: Path, only_arcs: list[str] | None = None, pad_to_original_size: bool = False) -> tuple[int, int]:
+    in_dir = disc_root / "PSP_GAME" / "USRDIR" / subdir
+    out_dir = out_root / "PSP_GAME" / "USRDIR" / subdir
     xml_dir = xml_root / subdir
 
     normalized_only: set[str] | None = None
@@ -161,38 +189,62 @@ def apply_folder(subdir: str, disc_root: Path, xml_root: Path, out_root: Path, o
         for nm in only_arcs:
             normalized_only.add(nm if nm.lower().endswith(".arc") else f"{nm}.arc")
 
+    processed_count = 0
+    skipped_count = 0
+    
     for arc_path in in_dir.glob("*.arc"):
         if normalized_only is not None and arc_path.name not in normalized_only:
             continue
+            
+        # Check if we need to process this ARC file
+        needs_processing = False
         alignment, entries = read_arc(arc_path)
         new_entries: List[ArcEntry] = []
+        
         for e in entries:
             if e.name.lower().endswith(".scr"):
                 xml_path = xml_dir / Path(e.name).with_suffix(".xml").name
                 if xml_path.exists():
-                    try:
-                        new_data = apply_translations_to_scr(e.data, xml_path)
-                        new_entries.append(ArcEntry(e.name, new_data, e.hash))
-                    except Exception:
+                    # Check if XML has English text before processing
+                    if has_english_text(xml_path):
+                        try:
+                            new_data = apply_translations_to_scr(e.data, xml_path)
+                            new_entries.append(ArcEntry(e.name, new_data, e.hash))
+                            needs_processing = True
+                        except Exception:
+                            new_entries.append(e)
+                    else:
+                        # No English text, keep original entry
                         new_entries.append(e)
+                        pass
                 else:
                     new_entries.append(e)
             else:
                 new_entries.append(e)
-        target_path = out_dir / arc_path.name
-        write_arc(target_path, alignment, new_entries)
-
-        if pad_to_original_size:
-            try:
-                orig_size = arc_path.stat().st_size
-                new_size = target_path.stat().st_size
-                if new_size < orig_size:
-                    # pad with zeros to keep exact byte size
-                    with target_path.open("ab") as wf:
-                        wf.write(b"\x00" * (orig_size - new_size))
-                # if new_size > orig_size we leave as-is; order+filelist import will handle LBAs
-            except Exception:
-                pass
+        
+        # Only create ARC file if we actually processed translations
+        if needs_processing:
+            target_path = out_dir / arc_path.name
+            write_arc(target_path, alignment, new_entries)
+            processed_count += 1
+            print(f"  Processed {arc_path.name} - Contains translations")
+            
+            if pad_to_original_size:
+                try:
+                    orig_size = arc_path.stat().st_size
+                    new_size = target_path.stat().st_size
+                    if new_size < orig_size:
+                        # pad with zeros to keep exact byte size
+                        with target_path.open("ab") as wf:
+                            wf.write(b"\x00" * (orig_size - new_size))
+                    # if new_size > orig_size we leave as-is; order+filelist import will handle LBAs
+                except Exception:
+                    pass
+        else:
+            skipped_count += 1
+            print(f"  Skipped {arc_path.name} - No translations needed")
+    
+    return processed_count, skipped_count
 
 
 def main() -> None:
@@ -209,13 +261,21 @@ def main() -> None:
     xml_root = Path(args.xml)
     out_root = Path(args.out)
 
-    if args.target in ("facechat", "both"):
-        apply_folder("facechat", disc_root, xml_root, out_root, args.only, args.pad_size)
-    if args.target in ("npc", "both"):
-        apply_folder("npc", disc_root, xml_root, out_root, args.only, args.pad_size)
+    total_processed = 0
+    total_skipped = 0
 
+    if args.target in ("facechat", "both"):
+        processed, skipped = apply_folder("facechat", disc_root, xml_root, out_root, args.only, args.pad_size)
+        total_processed += processed
+        total_skipped += skipped
+    
+    if args.target in ("npc", "both"):
+        processed, skipped = apply_folder("npc", disc_root, xml_root, out_root, args.only, args.pad_size)
+        total_processed += processed
+        total_skipped += skipped
+    
+    # Display summary
+    print(f"\n{total_processed} ARC files processed, {total_skipped} skipped")
 
 if __name__ == "__main__":
     main()
-
-

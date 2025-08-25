@@ -3,7 +3,7 @@
 | English | Japanese | Added |
 | - | - | - |
 | `Original Characters`|||
-| Kanonno | カノンノ | O |
+| Kanonno Earhart | カノンノ・イアハート | O |
 | Panille | パニール | O |
 | Shoh Corron | ショー・コーロン | O |
 | Niata | ニアタ | O |

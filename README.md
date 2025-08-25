@@ -77,64 +77,30 @@ Currently unknown are filenames with the patterns:
 1. After having added new translations apply the changes to the `.ARC` files by running the python script `tools/rm2_apply.py`
     ```bash
     // example of an entire folder
-    python tools\rm2_apply.py --target facechat --only ev0000_1 --pad-size --disc 0_disc --xml 2_translated --out 3_patched
+    python tools\rm2_apply.py --target facechat --pad-size --disc 0_disc --xml 2_translated --out 3_patched
     
     // example of a single file 
     python tools\rm2_apply.py --target facechat --only ev0000_1 --pad-size --disc 0_disc --xml 2_translated --out 3_patched
 1. Now check if the folder `3_patched\USRDIR\facechat` or `3_patched\USRDIR\npc` has been created and if it contains the specified `.ARC` files.
 1. Once the changes are applied to the `.ARC` files copy the files back to the UMD
-    > I personally used `UMD-replace` in combination with a .bat file to run the command for all files in the folder
+    > I personally used the Python `umd_replace.py` script in combination with `replace-all.py` to run the command for all files in the folder
     > like so: 
     
-    > UMD-replace example command:
-    > ``` 
-    > "UMD-replace.exe" "path_to\RM2_replaced.iso" "PSP_GAME\USRDIR\facechat\ev0000.arc" "PATH_TO_REPO\3_patched\USRDIR\facechat\ev0000.arc"
-    
-    > replace-all.bat:
+    > Individual file replacement example:
+    > ```bash
+    > python "tools\UMD-replace\umd_replace.py" "path_to\RM2_replaced.iso" "PSP_GAME\USRDIR\facechat\ev0000.arc" "PATH_TO_REPO\3_patched\USRDIR\facechat\ev0000.arc"
     > ```
-    >     @echo off
-    >     setlocal EnableExtensions EnableDelayedExpansion
-    > 
-    >     rem === EDIT THESE ===
-    >     set "ISO=C:\[<< FULL PATH TO >>]\RM2_replaced.iso"
-    >     set "TOOL=C:\[<< FULL PATH TO >>]\UMD-replace.exe"
-    >     set "USRDIR=C:\[<< FULL PATH TO >>]\3_patched\USRDIR"
-    > 
-    >     rem Optional: only process these types
-    >     set "GLOB=*.arc"
-    > 
-    >     if not exist "%ISO%"    echo ERROR: ISO not found: "%ISO%" & exit /b 1
-    >     if not exist "%TOOL%"   echo ERROR: Tool not found: "%TOOL%" & exit /b 1
-    >     if not exist "%USRDIR%" echo ERROR: USRDIR not found: "%USRDIR%" & exit /b 1
-    > 
-    >     rem Ensure BASE ends with backslash
-    >     set "BASE=%USRDIR%"
-    >     if not "%BASE:~-1%"=="\" set "BASE=%BASE%\"
-    > 
-    >     echo Replacing under:
-    >     echo   Local: "%BASE%"
-    >     echo   ISO:   "PSP_GAME\USRDIR\..."
-    >     echo.
-    > 
-    >     for /r "%BASE%" %%F in (%GLOB%) do (
-    >     set "ABS=%%~fF"
-    >     call set "REL=%%ABS:%BASE%=%%"   rem e.g. facechat\ev0000_1.arc
-    >     set "ISOPATH=PSP_GAME\USRDIR\!REL!"
-    > 
-    >     echo -> "!ISOPATH!"
-    >     rem Normal (waits by default):
-    >     "%TOOL%" "%ISO%" "!ISOPATH!" "%%~fF"
-    >     if errorlevel 1 (
-    >         echo FAILED: "!ISOPATH!"
-    >         exit /b 1
-    >     )
-    > 
-    >     rem If you ever see it not waiting, comment the line above and
-    >     rem uncomment the next one to force waiting:
-    >     rem start "" /wait "%TOOL%" "%ISO%" "!ISOPATH!" "%%~fF" || (echo FAILED: "!ISOPATH!" & exit /b 1)
-    >     )
-    > 
-    >     echo.
-    >     echo All done.
-    >     endlocal
+    
+    > Bulk replacement (recommended):
+    > ```bash
+    > # Edit the configuration in tools\replace-all.py first, then run:
+    > python "tools\replace-all.py"
+    > ```
+    
+    > Or use the Windows batch file:
+    > ```cmd
+    > "tools\replace-all.bat"
+    > ```
+    
+    > The Python scripts provide better error handling and will log any failed files to `replace-all-failed.log` for easy troubleshooting.
 1. And voila you will have your patched and playable ISO.
