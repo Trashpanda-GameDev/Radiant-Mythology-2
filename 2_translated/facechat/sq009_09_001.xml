@@ -16,11 +16,12 @@
       <PointerOffset/>
       <JapaneseText>まずは機関室へ行きましょう。
 そこで、簡単な説明をするわ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Let’s head to the engine room first.
+I’ll give you a quick explanation there.</EnglishText>
       <Notes/>
       <SpeakerId>50</SpeakerId>
       <Id>0</Id>
-      <Status>To Do</Status>
+      <Status>Editing</Status>
     </Entry>
   </Strings>
   <Strings>
