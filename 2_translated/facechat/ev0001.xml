@@ -4,7 +4,7 @@
     <Entry>
       <PointerOffset/>
       <JapaneseText>カノンノ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Kanonno</EnglishText>
       <Notes/>
       <Id>50</Id>
       <Status>To Do</Status>
@@ -12,7 +12,7 @@
     <Entry>
       <PointerOffset/>
       <JapaneseText>パニール</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Panille</EnglishText>
       <Notes/>
       <Id>53</Id>
       <Status>To Do</Status>
@@ -23,7 +23,7 @@
     <Entry>
       <PointerOffset/>
       <JapaneseText>気がついたんだ、よかった…</JapaneseText>
-      <EnglishText/>
+      <EnglishText>You’re awake, thank goodness...</EnglishText>
       <Notes/>
       <SpeakerId>50</SpeakerId>
       <Id>0</Id>
@@ -33,7 +33,8 @@
       <PointerOffset/>
       <JapaneseText>カノンノ、どう？
 お目覚めになったの？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Kanonno, how is it?
+Did they wake up?</EnglishText>
       <Notes/>
       <SpeakerId>53</SpeakerId>
       <Id>1</Id>
@@ -43,8 +44,9 @@
       <PointerOffset/>
       <JapaneseText>あら、あれ、んまー。
 りりしいお坊っちゃまだことー</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Oh my...
+What a dashing young gentleman!</EnglishText>
+      <Notes>if player is male</Notes>
       <SpeakerId>53</SpeakerId>
       <Id>2</Id>
       <Status>To Do</Status>
@@ -53,8 +55,9 @@
       <PointerOffset/>
       <JapaneseText>あら、あれ、んまー。
 可愛らしいお嬢さまだことー</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>Oh my...
+What a beautiful young lady!</EnglishText>
+      <Notes>if player is female</Notes>
       <SpeakerId>53</SpeakerId>
       <Id>3</Id>
       <Status>To Do</Status>
@@ -64,8 +67,10 @@
       <JapaneseText>ご無事で何よりだわ。
 ここは、バンエルティア号という
 船の中なの</JapaneseText>
-      <EnglishText/>
-      <Notes/>
+      <EnglishText>But more importantly, I’m glad you’re
+safe. You’re aboard a ship called 
+the Van Eltia.</EnglishText>
+      <Notes/>     
       <SpeakerId>53</SpeakerId>
       <Id>4</Id>
       <Status>To Do</Status>
@@ -74,7 +79,8 @@
       <PointerOffset/>
       <JapaneseText>私、カノンノ。
 あなたは？</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I am Kanonno.
+And you are?</EnglishText>
       <Notes/>
       <SpeakerId>50</SpeakerId>
       <Id>5</Id>
@@ -83,7 +89,7 @@
     <Entry>
       <PointerOffset/>
       <JapaneseText>○○…、いい名前ね</JapaneseText>
-      <EnglishText/>
+      <EnglishText>○○..., that’s a nice name.</EnglishText>
       <Notes/>
       <SpeakerId>50</SpeakerId>
       <Id>6</Id>
@@ -94,7 +100,9 @@
       <JapaneseText>無事で何よりだわ〜。
 あなた空から降ってきたの。
 ここの甲板にね</JapaneseText>
-      <EnglishText/>
+      <EnglishText>I’m just relieved you’re all right.
+You fell from the sky,
+right onto this deck.</EnglishText>
       <Notes/>
       <SpeakerId>53</SpeakerId>
       <Id>7</Id>
