@@ -1,5 +1,5 @@
 <SceneText>
-  <FriendlyName>Story 2</FriendlyName>
+  <FriendlyName>Main story 2</FriendlyName>
   <Speakers>
     <Section>Speaker</Section>
     <Entry>
@@ -8,7 +8,7 @@
       <EnglishText>Kanonno</EnglishText>
       <Notes/>
       <Id>50</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset/>
@@ -16,7 +16,7 @@
       <EnglishText>Panille</EnglishText>
       <Notes/>
       <Id>53</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
   </Speakers>
   <Strings>
@@ -28,7 +28,7 @@
       <Notes/>
       <SpeakerId>50</SpeakerId>
       <Id>0</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset/>
@@ -38,7 +38,7 @@
       <Notes/>
       <SpeakerId>50</SpeakerId>
       <Id>1</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset/>
@@ -47,7 +47,7 @@
       <Notes/>
       <SpeakerId>53</SpeakerId>
       <Id>2</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset/>
@@ -58,7 +58,7 @@ What could it have been...?</EnglishText>
       <Notes/>
       <SpeakerId>50</SpeakerId>
       <Id>3</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset/>
@@ -69,7 +69,7 @@ Waaaaaaahhhhh!!!</EnglishText>
       <Notes/>
       <SpeakerId>53</SpeakerId>
       <Id>5</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset/>
@@ -78,7 +78,7 @@ Waaaaaaahhhhh!!!</EnglishText>
       <Notes/>
       <SpeakerId>53</SpeakerId>
       <Id>6</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
   </Strings>
   <Strings>

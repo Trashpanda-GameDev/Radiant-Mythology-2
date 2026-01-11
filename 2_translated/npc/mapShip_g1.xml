@@ -1,4 +1,5 @@
 <SceneText>
+  <FriendlyName>Ruca Illia Spada tips</FriendlyName>
   <Speakers>
     <Section>Speaker</Section>
     <Entry>
@@ -475,8 +476,8 @@ need to use a certain arte many times.</EnglishText>
       <PointerOffset/>
       <JapaneseText>あたしも仕事に出てる時に、
 お宝に巡りあえないかなー</JapaneseText>
-      <EnglishText>I wonder if I’ll stumble on some
-treasure while I’m out working.</EnglishText>
+      <EnglishText>I wonder if I'll stumble on some
+treasure while I'm out working.</EnglishText>
       <Notes/>
       <SpeakerId>48</SpeakerId>
       <Id>41</Id>
@@ -486,12 +487,12 @@ treasure while I’m out working.</EnglishText>
       <PointerOffset/>
       <JapaneseText>まー、それを手に入れる為の
 「鍵」とか「鎌」とか持ってないけどさー</JapaneseText>
-      <EnglishText>Not that I've got the "keys" or "sickle" 
-you need to actually get it, though.</EnglishText>
-      <Notes/>
+      <EnglishText>Not that I've got the "keys" or "tools"
+you need to actually open it, though.</EnglishText>
+      <Notes>Not sure which term to use for 「鎌」 so I just went with "tools"</Notes>
       <SpeakerId>48</SpeakerId>
       <Id>42</Id>
-      <Status>Editing</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset/>

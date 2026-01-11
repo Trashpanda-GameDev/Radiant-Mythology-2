@@ -1,4 +1,5 @@
 <SceneText>
+  <FriendlyName>Panille death message</FriendlyName>
   <Speakers>
     <Section>Speaker</Section>
     <Entry>
@@ -16,11 +17,12 @@
       <PointerOffset/>
       <JapaneseText>あらあら、大丈夫ですか？
 あまり無理をしてはいけませんよ</JapaneseText>
-      <EnglishText/>
+      <EnglishText>Oh my, are you all right?
+You shouldn't push yourself too hard.</EnglishText>
       <Notes/>
       <SpeakerId>53</SpeakerId>
       <Id>0</Id>
-      <Status>To Do</Status>
+      <Status>Proofreading</Status>
     </Entry>
   </Strings>
   <Strings>

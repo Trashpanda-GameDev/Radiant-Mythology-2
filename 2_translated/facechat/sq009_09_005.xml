@@ -1,4 +1,5 @@
 <SceneText>
+  <FriendlyName>UNKNOWN</FriendlyName>
   <Speakers>
     <Section>Speaker</Section>
     <Entry>
@@ -26,10 +27,10 @@
 あなたならきっと大丈夫だよ。
 そんな気がするの</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>Didn't seem to trigger in game no way to test</Notes>
       <SpeakerId>50</SpeakerId>
       <Id>0</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
     <Entry>
       <PointerOffset/>
@@ -37,10 +38,10 @@
 ボクの子分として務まるか否か
 見定めさせていただきますね</JapaneseText>
       <EnglishText/>
-      <Notes/>
+      <Notes>Didn't seem to trigger in game no way to test</Notes>
       <SpeakerId>18</SpeakerId>
       <Id>1</Id>
-      <Status>To Do</Status>
+      <Status>Problematic</Status>
     </Entry>
   </Strings>
   <Strings>

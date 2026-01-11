@@ -1,5 +1,5 @@
 <SceneText>
-  <FriendlyName>Story 3</FriendlyName>
+  <FriendlyName>Main story 3</FriendlyName>
   <Speakers>
     <Section>Speaker</Section>
     <Entry>
@@ -24,11 +24,11 @@
     <Entry>
       <PointerOffset/>
       <JapaneseText>気がついたんだ、よかった…</JapaneseText>
-      <EnglishText>You’re awake, thank goodness...</EnglishText>
+      <EnglishText>You're awake, thank goodness...</EnglishText>
       <Notes/>
       <SpeakerId>50</SpeakerId>
       <Id>0</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset/>
@@ -39,7 +39,7 @@ Did they wake up?</EnglishText>
       <Notes/>
       <SpeakerId>53</SpeakerId>
       <Id>1</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset/>
@@ -50,7 +50,7 @@ What a dashing young gentleman!</EnglishText>
       <Notes>if player is male</Notes>
       <SpeakerId>53</SpeakerId>
       <Id>2</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset/>
@@ -61,19 +61,19 @@ What a beautiful young lady!</EnglishText>
       <Notes>if player is female</Notes>
       <SpeakerId>53</SpeakerId>
       <Id>3</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset/>
       <JapaneseText>ご無事で何よりだわ。
 ここは、バンエルティア号という
 船の中なの</JapaneseText>
-      <EnglishText>But more importantly, I’m glad you’resafe. You’re aboard a ship called 
+      <EnglishText>But more importantly, I'm glad you'resafe. You're aboard a ship called 
 the Van Eltia.</EnglishText>
       <Notes/>
       <SpeakerId>53</SpeakerId>
       <Id>4</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset/>
@@ -84,30 +84,30 @@ And you are?</EnglishText>
       <Notes/>
       <SpeakerId>50</SpeakerId>
       <Id>5</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset/>
       <JapaneseText>○○…、いい名前ね</JapaneseText>
       <EnglishText>○○...,
-that’s a nice name.</EnglishText>
+that's a nice name.</EnglishText>
       <Notes/>
       <SpeakerId>50</SpeakerId>
       <Id>6</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset/>
       <JapaneseText>無事で何よりだわ〜。
 あなた空から降ってきたの。
 ここの甲板にね</JapaneseText>
-      <EnglishText>I’m just relieved you’re all right.
+      <EnglishText>I'm just relieved you're all right.
 You fell from the sky,
 right onto this deck.</EnglishText>
       <Notes/>
       <SpeakerId>53</SpeakerId>
       <Id>7</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
   </Strings>
   <Strings>
