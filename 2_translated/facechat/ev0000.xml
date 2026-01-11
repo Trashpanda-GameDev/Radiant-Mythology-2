@@ -1,4 +1,5 @@
 <SceneText>
+  <FriendlyName>Main story 1</FriendlyName>
   <Speakers>
     <Section>Speaker</Section>
     <Entry>
@@ -7,7 +8,7 @@
       <EnglishText>Kanonno</EnglishText>
       <Notes/>
       <Id>50</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset/>
@@ -15,7 +16,7 @@
       <EnglishText>Panille</EnglishText>
       <Notes/>
       <Id>53</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
   </Speakers>
   <Strings>
@@ -24,12 +25,12 @@
       <PointerOffset/>
       <JapaneseText>あっ、パニール。
 洗濯物取り込んでおいたよ</JapaneseText>
-      <EnglishText>Oh, Panille.
+      <EnglishText>Oh, Panille!
 I've brought in the laundry for you.</EnglishText>
       <Notes/>
       <SpeakerId>50</SpeakerId>
       <Id>0</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset/>
@@ -42,19 +43,19 @@ so I can catch my breath.</EnglishText>
       <Notes/>
       <SpeakerId>53</SpeakerId>
       <Id>1</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
     <Entry>
       <PointerOffset/>
       <JapaneseText>さ、私はこれから日向ぼっこしながら
 恋愛小説を読む、幸せタイムよ〜</JapaneseText>
-      <EnglishText>Now then, time for my happy hour:
-sitting in a sunny spot and reading
+      <EnglishText>Now then, time for my happy hour: 
+sitting in a sunny spot and reading 
 a romance novel〜</EnglishText>
       <Notes/>
       <SpeakerId>53</SpeakerId>
       <Id>2</Id>
-      <Status>Editing</Status>
+      <Status>Proofreading</Status>
     </Entry>
   </Strings>
   <Strings>
@@ -65,7 +66,7 @@ a romance novel〜</EnglishText>
       <EnglishText/>
       <Notes/>
       <Id>3</Id>
-      <Status>To Do</Status>
+      <Status>Done</Status>
     </Entry>
   </Strings>
 </SceneText>
