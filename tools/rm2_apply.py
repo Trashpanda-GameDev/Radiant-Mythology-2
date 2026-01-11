@@ -5,6 +5,8 @@ from typing import List
 import struct
 import gzip
 import argparse
+import sys
+import subprocess
 from lxml import etree as ET
 
 
@@ -249,7 +251,7 @@ def apply_folder(subdir: str, disc_root: Path, xml_root: Path, out_root: Path, o
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Apply translated XML into .arc archives for Radiant Mythology 2")
-    parser.add_argument("--target", choices=["facechat", "npc", "both"], default="facechat", help="Which subfolder to apply")
+    parser.add_argument("--target", choices=["facechat", "npc", "quest", "both"], default="facechat", help="Which subfolder to apply")
     parser.add_argument("--disc", default="0_disc", help="Path to disc root containing USRDIR")
     parser.add_argument("--xml", default="2_translated", help="Path to translated XML root")
     parser.add_argument("--out", default="3_patched", help="Path to output root")
@@ -273,6 +275,48 @@ def main() -> None:
         processed, skipped = apply_folder("npc", disc_root, xml_root, out_root, args.only, args.pad_size)
         total_processed += processed
         total_skipped += skipped
+    
+    if args.target in ("quest", "both"):
+        # Call standalone quest_apply.py script
+        script_dir = Path(__file__).parent
+        quest_apply_script = script_dir / "quest_apply.py"
+        quest_arc = disc_root / "PSP_GAME" / "USRDIR" / "quest" / "qtext.arc"
+        quest_bin = Path("1_extracted") / "quest" / "qtext" / "0000.bin"  # Use extracted file if available
+        quest_xml = xml_root / "quest" / "0000.xml"
+        quest_out = out_root / "PSP_GAME" / "USRDIR" / "quest" / "qtext.arc"
+        
+        # quest_apply.py now requires --bin parameter
+        if quest_apply_script.exists() and quest_arc.exists() and quest_xml.exists():
+            if not quest_bin.exists():
+                print(f"  ERROR: Extracted .bin file not found: {quest_bin}")
+                print(f"  Please run: python tools\\quest_extract_arc.py --arc \"{quest_arc}\" --out \"1_extracted\\quest\"")
+                total_skipped += 1
+            else:
+                cmd = [sys.executable, str(quest_apply_script), 
+                       "--arc", str(quest_arc),
+                       "--bin", str(quest_bin),
+                       "--xml", str(quest_xml), 
+                       "--out", str(quest_out)]
+                # Note: quest_apply.py now ALWAYS preserves original ARC size for ISO compatibility
+                try:
+                    result = subprocess.run(cmd, check=True, capture_output=True, text=True)
+                    if result.stdout:
+                        print(result.stdout)
+                    total_processed += 1
+                except subprocess.CalledProcessError as e:
+                    if e.stdout:
+                        print(e.stdout)
+                    if e.stderr:
+                        print(e.stderr, file=sys.stderr)
+                    total_skipped += 1
+        else:
+            if not quest_apply_script.exists():
+                print(f"  quest_apply.py not found")
+            elif not quest_arc.exists():
+                print(f"  qtext.arc not found: {quest_arc}")
+            elif not quest_xml.exists():
+                print(f"  0000.xml not found: {quest_xml}")
+            total_skipped += 1
     
     # Display summary
     print(f"\n{total_processed} ARC files processed, {total_skipped} skipped")

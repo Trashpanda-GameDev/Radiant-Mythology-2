@@ -18,7 +18,6 @@ Attempt to complete English patch for Tales of the World: Radiant Mythology 2
 1. `PSP_GAME\USRDIR\quest\qdata.bin` was also translated
 1. The `SCR` files are proabaly story/skit text
 1. `○○` can be used in the english translation to input the player name
-1. A line is approximately this big before it goes to a new line: `xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`
 
 # Skit files
 The `PSP_GAME\USRDIR\facechat\*.arc` contain the story/skit files
@@ -36,7 +35,7 @@ Currently unknown file extensions
 
 Currently unknown are filenames with the patterns: 
 - `gv####` - 
-- `sq###_##_###` - 
+- `sq###_##_###` - side quests?
 - `cv##_##` - 
 - `facetest_#` - probably for debugging?
 - `mapNAME_#` - probably names for map locations
@@ -104,3 +103,39 @@ Currently unknown are filenames with the patterns:
     
     > The Python scripts provide better error handling and will log any failed files to `replace-all-failed.log` for easy troubleshooting.
 1. And voila you will have your patched and playable ISO.
+
+
+## Quest translations:
+`PSP_GAME\USRDIR\quest\` contains: 
+`qsummary.bin` - contains quest summary text (`EUC-JP` encoded)
+`guide.bin` - contains text for (in-game menu) Library -> Guide Book (I think)
+`qtext.arc` - can be extracted to get `0000.bin` (`EUC-JP` encoded) which contains dialogue text that triggers when starting a quest
+
+I've also added an script that allows replacing the files which can be used like so
+
+#### Replace all quest folder files:
+```
+python "PROJECT_ROOT\tools\replace-quest.py" "PROJECT_ROOT\build\RM2_translated.iso" "PROJECT_ROOT\0_disc\PSP_GAME\USRDIR\quest"
+```
+#### Replace specific files:
+```
+python "PROJECT_ROOT\tools\replace-quest.py" "PROJECT_ROOT\build\RM2_translated.iso" "PROJECT_ROOT\0_disc\PSP_GAME\USRDIR\quest" "qdata.bin" "qtext.arc"
+```
+#### Replace a single file:
+```
+python "PROJECT_ROOT\tools\replace-quest.py" "PROJECT_ROOT\build\RM2_translated.iso" "PROJECT_ROOT\0_disc\PSP_GAME\USRDIR\quest\qdata.bin"
+```
+
+## EBOOT.bin
+#### manually replace the EBOOT.bin file in the target ISO
+```
+python "PROJECT_ROOT\tools\replace-eboot.py" "PROJECT_ROOT\build\RM2_translated.iso" "PROJECT_ROOT\0_disc\PSP_GAME\SYSDIR\EBOOT.BIN"
+```
+
+```
+python tools\apply-eboot.py
+```
+
+```
+python tools\quest_apply.py
+```
